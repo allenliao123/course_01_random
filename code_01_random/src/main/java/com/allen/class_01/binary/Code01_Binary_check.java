@@ -9,6 +9,7 @@ import java.util.Scanner;
  */
 public class Code01_Binary_check {
 
+
 	
 	public static String  toBinaryStr(int num) {
 		
@@ -16,7 +17,7 @@ public class Code01_Binary_check {
 		for(int i = 31; i>= 0;i--) {
 			int cur = (num >> i & 1);
 			s.append(cur);
-			if((i & 7) == 0 && i != 0) {
+			if((i & 7) == 0 && i != 0  ) {
 				s.append("_");
 			}
 		}
@@ -37,9 +38,9 @@ public class Code01_Binary_check {
 			if(in == 0) {
 				break;
 			}
-			String str = Integer.toBinaryString(in);
-			System.out.printf("%32s \n",str);
-//			System.out.println(toBinaryStr(in));
+//			String str = Integer.toBinaryString(in);
+//			System.out.printf("%32s \n",str);
+			System.out.println(toBinaryStr(in));
 			System.out.print("请输入数据：");
 		}
 		

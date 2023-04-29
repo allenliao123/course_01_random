@@ -3,4 +3,13 @@
   <groupId>com.allen</groupId>
   <artifactId>code_01_random</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <dependencies>
+     <dependency>
+            <groupId>com.caucho</groupId>
+            <artifactId>hessian</artifactId>
+            <version>4.0.66</version>
+     </dependency>
+  </dependencies>
 </project>
