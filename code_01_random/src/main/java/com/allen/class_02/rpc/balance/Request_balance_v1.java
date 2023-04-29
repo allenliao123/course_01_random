@@ -1,41 +1,4 @@
-# 随机杂谈
-> Author:  AllenLiao
->
-> Time：  AnyTime
->
-> contact: 361684801@qq.com
-
-# 进制和编码
-
-+ 进制的表示
-
-  + 二进制
-
-  + 八进制
-
-  + 十进制
-
-  + 十六进制
-
-+ 进制的编码
-
-+ 进制的转换
-
-
-
-# 负载算法
-
-+ 随机
-+ 轮询
-+ 随机权重
-+ 轮询权重
-+ hash ip
-+ 最少连接数
-
-
-
-```java
-package com.allen.mutil.request.balance;
+package com.allen.class_02.rpc.balance;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -57,6 +20,9 @@ import java.util.concurrent.TimeUnit;
  *
  */
 public class Request_balance_v1 {
+	
+	
+	
 	
 	/**
 	 * 服务器
@@ -136,6 +102,7 @@ public class Request_balance_v1 {
 		 * @param server
 		 */
 		public synchronized Server connect() {
+			
 		  
 		  Set<Server> ipS =  leastConMap.keySet();	
 	
@@ -312,15 +279,12 @@ public class Request_balance_v1 {
 			
 			}
 		},"t-one").start();
-
+	
+		
+	
+		
+		
+		
 	}
 
 }
-
-```
-
-
-
-
-
-## 

@@ -1,4 +1,4 @@
-package com.allen.computer.binary;
+package com.allen.class_01.binary;
 
 import java.util.Scanner;
 
